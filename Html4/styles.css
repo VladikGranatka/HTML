@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    color: blue;
+}
+
+h2 {
+    color: green;
+}
+
+p {
+    color: gray;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Класи для різних кольорів кнопок */
+.btn-primary {
+    background-color: blue;
+    color: white;
+}
+
+.btn-secondary {
+    background-color: green;
+    color: white;
+}
+
+.btn-success {
+    background-color: #4CAF50; /* Зелений колір */
+    color: white;
+}
+
+/* Стилі для текстових полів */
+input[type="text"] {
+    border: 1px solid #ccc;
+    padding: 5px;
+}
